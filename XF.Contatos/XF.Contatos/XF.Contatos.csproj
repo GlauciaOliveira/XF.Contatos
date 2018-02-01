@@ -42,6 +42,8 @@
     <Compile Include="App_Code\ILocalizacao.cs" />
     <Compile Include="App_Code\ITelefone.cs" />
     <Compile Include="Model\Contato.cs" />
+    <Compile Include="Model\Telefone.cs" />
+    <Compile Include="Model\TipoTel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\ContatoViewModel.cs" />
     <Compile Include="View\ContatosView.xaml.cs">
