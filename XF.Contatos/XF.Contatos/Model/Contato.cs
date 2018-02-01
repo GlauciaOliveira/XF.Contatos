@@ -7,12 +7,7 @@ using Xamarin.Forms;
 using XF.Contatos.ViewModel;
 
 namespace XF.Contatos.Model
-{
-    public interface IContato
-    {
-        void GetMobileContacts(ContatoViewModel vm);
-    }
-
+{ 
     public class Contato
     {
         public Contato()
@@ -29,7 +24,7 @@ namespace XF.Contatos.Model
             get
             {
                 if (Telefones != null)
-                    return Telefones.FirstOrDefault().Numero;
+                    return Telefones.SingleOrDefault().Numero;
 
                 return string.Empty;
             }

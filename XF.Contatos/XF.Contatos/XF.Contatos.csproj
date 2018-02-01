@@ -50,6 +50,7 @@
     <Compile Include="View\DetalheView.xaml.cs">
       <DependentUpon>DetalheView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\IContato.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
